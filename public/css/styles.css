@@ -13,18 +13,27 @@ body {
 }
 
 .header {
-    position:absolute;
+    position: absolute;
+    top: 0%;
     margin: auto;
     text-align: center;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 100%;
+    width: 100%;
+    //top: 0;
+    //right: 0;
+    //left: 0;
+    //bottom: 100%;
+    //background-color: blue;
+    z-index: 10000;
+}
+
+.myBody {
+    padding-top: 60px;
+
 }
 
 .footer {
     margin: auto;
-    position: absolute;
+    position: fixed;
     top: 100%;
     bottom: 0;
     right: 0;
@@ -37,9 +46,27 @@ body {
 }
 
 .uploader {
-    top: 40%;
-    position: relative;
+
+    /*top: 40%;
+    position: fixed;
     size: 40px;
+    border: 2px solid black;
+    background: #d9e6f2;
+    margin:50px;
+    padding: 30px;
+    width: 1000px;*/
+
+    position:fixed;
+    margin: 70px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    top:300px;
+    background: #d9e6f2;
+    border: 1px solid black;
+    padding: 30px;
+
+
 }
 
 
@@ -78,6 +105,7 @@ body {
 h4 {
   margin-top: 5%;
   text-align: center;
+  color: #668cff;
 }
 
 .custom-file-input::-webkit-file-upload-button {
@@ -106,9 +134,23 @@ h4 {
 }
 
 .flowchart-example-container {
-  height: 500px;
-  width: 1450px;
-  background: white;
-  border: 1px solid #BBB;
+  height: 700px;
+  width: 100%;
+  background: #668cff;
   margin-bottom: 2px;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
+  
+
+
+
+  /*position: fixed;*/
+  /*margin-left: 20%;*/
+}
+
+.myButtons{
+  padding-top: 10px;
+  display: block;
+  text-align: center;
 }

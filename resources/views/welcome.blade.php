@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap added -->
 
-    <title>FLA Team Project</title>
+    <title>Page Uploader</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
     <!--Styles-->
@@ -12,17 +12,20 @@
 
 <body>
     <!--Header-->
-    <div class="header">
+    <header class="header">
         <h1>
             <center> FLA Team </center>
         </h1>
-    </div>
+        <h2>
+          Students: Lorenzo Baldari - Alessandro Dilevrano - Fiore Zaccaria
+        </h2>
+    </header>
 
     <!--Footer-->
     <footer>
-        <div class="header footer">
+        <div class="footer">
             <h2>
-                Students: Lorenzo Baldari - Alessandro Dilevrano - Fiore Zaccaria
+
             </h2>
         </div>
     </footer>

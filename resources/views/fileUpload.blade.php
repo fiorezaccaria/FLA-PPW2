@@ -9,11 +9,12 @@
 <body>
 
     <!--Uploader-->
-    <div class="uploader center">
+
+    <div class="uploader center" >
 
         <div class="panel panel-primary uplodaer">
             <div class="panel-heading">
-                <h2> Upload File </h2>
+                <h2> UPLOAD FILE </h2>
             </div>
 
 
@@ -22,7 +23,7 @@
                   @csrf
 
                             <input type="file" name="file" class="custom-file-input">
-                            <button type="submit" class="btn btn-success uploaderBtn">Upload</button>
+                            <button type="submit" class="btn btn-success uploaderBtn">UPLOAD</button>
 
 
                       </form>
