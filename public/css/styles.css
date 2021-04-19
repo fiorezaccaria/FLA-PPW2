@@ -136,12 +136,12 @@ h4 {
 .flowchart-example-container {
   height: 700px;
   width: 100%;
-  background: #668cff;
+  background: #d9e6f2;
   margin-bottom: 2px;
   text-align: center;
   display: block;
   border-radius: 5px;
-  
+
 
 
 
@@ -153,4 +153,45 @@ h4 {
   padding-top: 10px;
   display: block;
   text-align: center;
+}
+
+.create_operator{
+  margin-top: 10px;
+  background-color: #668cff;
+  color:white;
+  padding: 5px;
+}
+
+.delete_selected_button{
+  background-color: #668cff;
+  color:white;
+  padding: 5px;
+}
+
+.get_data{
+  background-color: #668cff;
+  color:white;
+  padding: 5px;
+}
+
+.set_data{
+  background-color: #668cff;
+  color:white;
+  padding: 5px;
+}
+
+.save_local{
+  background-color: #668cff;
+  color:white;
+  padding: 5px;
+}
+
+.load_local{
+  background-color: #668cff;
+  color:white;
+  padding: 5px;
+}
+
+.textarea{
+  padding: 20px;
 }

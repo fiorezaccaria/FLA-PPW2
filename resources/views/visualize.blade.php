@@ -56,9 +56,10 @@
     </div>
     <button class="get_data" id="get_data">Get data</button>
     <button class="set_data" id="set_data">Set data</button>
-    <button id="save_local">Save to local storage</button>
-    <button id="load_local">Load from local storage</button>
-    <div>
+    <button class="save_local" id="save_local">Save to local storage</button>
+    <button class="load_local "id="load_local">Load from local storage</button>
+
+    <div class="textarea">
         <textarea id="flowchart_data"></textarea>
     </div>
   </div>
